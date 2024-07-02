@@ -53,10 +53,8 @@ const Details = () => {
            </div>
         </div>
 
-        <div className='designer-name'>
-        Designed by: Abhinav
-      </div>
-      
+        
+
     </div>
     
   )
