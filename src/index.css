@@ -92,6 +92,19 @@ code {
   font-size: 2rem;
   text-align: center;
 }
+.recipe-container {
+  position: relative; /* Ensure relative positioning for absolute child */
+  min-height: 100vh; /* Ensures the container takes at least the full viewport height */
+}
+
+.designer-name {
+  position: absolute;
+  bottom: 10px; /* Adjust this value to control the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: #333;
+}
 
 @media (max-width: 768px) {
   .recipe-card {

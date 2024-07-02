@@ -16,6 +16,9 @@ const Index = () => {
             <h1 className='no-recipes'>No Recipes Found</h1>
           </div>
       }
+       <div className='designer-name'>
+        Designed by: Abhinav
+      </div>
     </div>
   )
 }
