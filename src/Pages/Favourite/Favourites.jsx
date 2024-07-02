@@ -16,6 +16,9 @@ const Favourites = () => {
           <h1 className='text-2xl text-center'>Nothing is added !</h1>
         </div>
       }
+      <div className='designer-name'>
+        Designed by: Abhinav
+      </div>
     </div>
   )
 }
